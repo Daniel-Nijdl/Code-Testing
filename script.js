@@ -54,51 +54,74 @@ if(decimal >= 1)
 
 //hexidecimal
 
-remainder1 = decimalforbinary % 16
-decimal1  = decimalforbinary / 16
-remainder2 = Math.floor(decimal1) % 16
+rem1 = decimalforbinary % 16;
+dec1 = decimalforbinary / 16;
+rem2 = Math.floor(dec1) % 16
 
-if(remainder1 == 10){
-    remainder1 = "A"
-}
-if(remainder1 == 11){
-    remainder1 = "B"
-}
-if(remainder1 == 12){
-    remainder1 = "C"
-}
-if(remainder1 == 13){
-    remainder1 = "D"
-}
-if(remainder1 == 14){
-    remainder1 = "E"
-}
-if(remainder1 == 15){
-    remainder1 = "F"
+//remainder1
+
+if(rem1 == 10) {
+    rem1 = "A";
+
 }
 
-if(remainder2 == 10){
-    remainder2 = "A"
+if(rem1 == 11) {
+    rem1 = "B";
+    
 }
-if(remainder2 == 11){
-    remainder2 = "B"
+
+if(rem1 == 12) {
+    rem1 = "C";
+    
 }
-if(remainder2 == 12){
-    remainder2 = "C"
+
+if(rem1 == 13) {
+    rem1 = "D";
+    
 }
-if(remainder2 == 13){
-    remainder2 = "D"
+
+if(rem1 == 14) {
+    rem1 = "E";
+    
 }
-if(remainder2 == 14){
-    remainder2 = "E"
+
+if(rem1 == 15) {
+    rem1 = "F";
+    
 }
-if(remainder2 == 15){
-    remainder2 = "F"
+
+//remainder 2
+
+if(rem2 == 10) {
+    rem2 = "A";
+    
 }
-if(remainder2 == 0){
-    remainder2 = ""
+
+if(rem2 == 11) {
+    rem2 = "B";
+    
+}
+
+if(rem2 == 12) {
+    rem2 = "C";
+    
+}
+
+if(rem2 == 13) {
+    rem2 = "D";
+    
+}
+
+if(rem2 == 14) {
+    rem2 = "E";
+    
+}
+
+if(rem2 == 15) {
+    rem2 = "F";
+    
 }
 
 console.log(`The binary of ${decimalforbinary} is ${binary128}${binary64}${binary32}${binary16} ${binary8}${binary4}${binary2}${binary1}`);
 
-console.log(`The hexadecimal of ${decimalforbinary} is ${remainder2} ${remainder1}`)
+console.log(`The hexadecimal of ${decimalforbinary} is ${rem2} ${rem1}`);
