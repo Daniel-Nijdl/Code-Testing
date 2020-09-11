@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://i.postimg.cc/rsWgqbxd/019-Malibu-Beach.png");
+}
+
+header{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 4em;
+    color: black
+}
+
+p{
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color:black;
+}
